@@ -16,7 +16,7 @@ public class BoxingTest {
         for (int i=0; i<400; i++){
             list.add(i);
         }
-    
+
         // 박싱
         Predicate<Integer> oddNumber = (Integer i) -> i % 2 == 1;
         System.out.println(oddNumber.test(1000));
